@@ -45,7 +45,7 @@
 }
 
 .banner-bg{
-     background-image: url("/images/hero-bg.png");
+     background-image: url("../images/hero-bg.png");
     background-size: cover;      
     background-position: center; 
     background-repeat: no-repeat;
@@ -355,7 +355,7 @@
 }
 
 
-.btn :hover {
+.btn {
   display: flex;
   align-items: center;      
   justify-content: center;   

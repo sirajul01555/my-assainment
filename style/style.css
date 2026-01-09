@@ -355,7 +355,7 @@
 }
 
 
-.btn {
+.btn :hover {
   display: flex;
   align-items: center;      
   justify-content: center;   

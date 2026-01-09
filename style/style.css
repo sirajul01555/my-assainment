@@ -29,6 +29,10 @@
   color: black;
 }
 
+.nav-button:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
 .nav-button{
 
     color: rgb(255, 255, 255);
@@ -39,9 +43,6 @@
     font-size: 24px;
     border: 2px;
     
-}
-.nav-button :hover{
-    background-color: rgb(174, 21, 21);
 }
 
 .banner-bg{
@@ -353,7 +354,10 @@
    color: #627382, rgba(98, 115, 130, 1);
    margin-bottom: 16px;
 }
-
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
 
 .btn {
   display: flex;
@@ -371,6 +375,12 @@
   font-weight: 600;
   cursor: pointer;
 }
+
+
+
+
+
+
 .btns {
   display: flex;
   align-items: center;      
@@ -395,8 +405,19 @@
     justify-content: center;
    
 }
+.my-gaps li{
+  margin: 15px;
+}
 
-
+.my-gap h1{
+  margin-top: 15px;
+}
+.my-gap p{
+  margin-top: 15px;
+}
+.my-gap button{
+  margin-top: 15px;
+}
 
 
 
@@ -423,6 +444,13 @@ padding: 12px 16px 12px 16px;
     gap: 16px;
 }
 
+.btns:hover{
+ 
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+
 .btns {
   display: flex;
   align-items: center;      
@@ -442,6 +470,12 @@ padding: 12px 16px 12px 16px;
 .no-bullet{
     list-style: none;
     white-space: no;
+}
+.last-btn:hover{
+  
+  background-color: #0056b3;
+  transform: scale(1.05);
+
 }
 .early_section .last-btn{
 
